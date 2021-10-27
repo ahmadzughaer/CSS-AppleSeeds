@@ -1,0 +1,15 @@
+#outer {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+    position: relative;  
+    /* we just need to add position relative to put the the inner div inside outter div since we have position absolute in it */
+    }
+    #inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: absolute;
+    top: 10px;
+    }
