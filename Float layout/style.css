@@ -11,6 +11,7 @@
   width: 69%;
   height: 100%;
   background-color: purple;
+  width: calc(72% - 50px);
 }
 
 .header {
