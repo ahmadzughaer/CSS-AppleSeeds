@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+
+}
+.main {
+  align-items: center;
+  padding-top: 10rem;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.main h2 {
+    margin: 0;
+}
+
+#btn {
+    border-radius: 10px;
+    height: 2rem;
+    width: 8rem;
+    background-color: brown;
+    color: wheat;
+}
+
+@media(max-width:500px) {
+    .main {
+        align-items: center;
+        padding-top: 10rem;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+      
+      .main h2 {
+          margin: 0;
+      }
+      .main p {
+          font-size: 11px;
+      }
+      
+      #btn {
+          border-radius: 10px;
+          height: 1rem;
+          width: 4rem;
+          background-color: brown;
+          color: wheat;
+          font-size: 10px;
+}
+}
