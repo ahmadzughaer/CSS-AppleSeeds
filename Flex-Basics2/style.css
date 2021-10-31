@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box_1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box_2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.box_3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
