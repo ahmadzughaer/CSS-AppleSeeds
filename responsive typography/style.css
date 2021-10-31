@@ -1,0 +1,20 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+h2 {
+    font-size: 50px;
+}
+
+@media(max-width:500px ) and (max-height: 500px) {
+    body {
+        width: 50vw;
+        height: 50vh;
+        background-color: rosybrown;
+    }
+    h2 {
+       font-size: 20px;
+       color: red;
+   }
+}
