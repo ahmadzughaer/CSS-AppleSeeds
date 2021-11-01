@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    position:relative;
+    }
+    
+    div::before {
+        content: '';
+        width: 50%;
+        height: 100%;
+        background-color: purple;
+        float: right;
+        position:absolute;
+
+    
+    }
+
+    div:hover::before  {
+        background-color: blue;
+    }
