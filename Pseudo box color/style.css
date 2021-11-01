@@ -1,14 +1,17 @@
-.container:nth-child(1) {
-width: 150px;
-height: 200px;
-background-color: purple;
-position:absolute;
-}
-
-div:nth-child(1){
-    width: 75px;
+div {
+    width: 150px;
     height: 200px;
     background-color: red;
-    float: right;
+    position:relative;
+    }
+    
+    div::before {
+        content: '';
+        width: 50%;
+        height: 100%;
+        background-color: purple;
+        float: right;
+        position:absolute;
 
-}
+    
+    }
