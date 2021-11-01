@@ -1,0 +1,26 @@
+span.tooltip {
+    padding: 0px 5px;
+    position: relative;
+    background: #a3eb9d;
+    cursor: pointer;
+}
+
+
+
+span.tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 15px;
+    padding: 1px 5px;
+    display: none;
+    color: brown;
+    background: rgba(238, 224, 27, 0.75);
+    border-radius: 4px;
+    text-align: left;
+    width: 150px;
+    
+}
+
+span:hover::before {
+    display: inline-block;
+}
