@@ -14,13 +14,15 @@ h2 {
   border-radius: 0px;
   text-align: center;
   padding: 10px;
-
+  cursor: pointer;
+  transition: background-color 1s;
 }
 #flat_1 {
   background-color: green;
   color: white;
   width: 120px;
   height: 50px;
+
 }
 #flat_1:hover {
   background-color: darkgreen;
@@ -30,6 +32,7 @@ h2 {
   color: white;
   width: 80px;
   height: 40px;
+
 }
 #flat_2:hover {
   background-color: darkred;
@@ -41,6 +44,7 @@ h2 {
   width: 60px;
   height: 30px;
   padding: 0px;
+ 
 }
 #flat_3:hover {
   background-color: darkblue;
@@ -53,6 +57,8 @@ h2 {
   border-radius: 30px;
   text-align: center;
   padding: 10px;
+  cursor: pointer;
+  transition: background-color 1s;
 }
 
 #round_1 {
@@ -60,6 +66,7 @@ h2 {
   color: white;
   width: 120px;
   height: 50px;
+
 }
 #round_1:hover {
   background-color: darkorange;
@@ -69,6 +76,7 @@ h2 {
   color: white;
   width: 80px;
   height: 40px;
+
 }
 #round_2:hover {
   background-color: gold;
@@ -79,7 +87,9 @@ h2 {
   color: white;
   width: 60px;
   height: 30px;
-  padding: 0;}
+  padding: 0;
+
+}
 #round_3:hover {
   background-color: rgb(102, 100, 100);
 }
@@ -90,6 +100,7 @@ h2 {
   padding: 10px;
   cursor: pointer;
   outline: transparent;
+  transition: background-color 1s;
   text-align: center;
 }
 
@@ -123,46 +134,46 @@ h2 {
   width: 60px;
   height: 30px;
   padding: 0;
-
 }
 
 .round_ghost {
-    background: transparent;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    outline: transparent;
-    text-align: center;
-    border-radius: 30px;
-  }
-  #round_ghost_1:hover {
-    color: white;
-    background: orange;
-  }
-  
-  #round_ghost_1 {
-    border: 2px solid darkorange;
-    width: 120px;
-    height: 50px;
-  }
-  #round_ghost_2:hover {
-    color: white;
-    background: yellow;
-  }
-  
-  #round_ghost_2 {
-    border: 2px solid gold;
-    width: 80px;
-    height: 40px;
-  }
-  #round_ghost_3:hover {
-    color: white;
-    background: gray;
-  }
-  
-  #round_ghost_3 {
-    border: 2px solid rgb(102, 100, 100);
-    width: 60px;
-    height: 30px;
-    padding: 0;
-  }
+  background: transparent;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  outline: transparent;
+  text-align: center;
+  border-radius: 30px;
+  transition: background-color 1s;
+}
+#round_ghost_1:hover {
+  color: white;
+  background: orange;
+}
+
+#round_ghost_1 {
+  border: 2px solid darkorange;
+  width: 120px;
+  height: 50px;
+}
+#round_ghost_2:hover {
+  color: white;
+  background: yellow;
+}
+
+#round_ghost_2 {
+  border: 2px solid gold;
+  width: 80px;
+  height: 40px;
+}
+#round_ghost_3:hover {
+  color: white;
+  background: gray;
+}
+
+#round_ghost_3 {
+  border: 2px solid rgb(102, 100, 100);
+  width: 60px;
+  height: 30px;
+  padding: 0;
+}
