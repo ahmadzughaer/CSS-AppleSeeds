@@ -1,0 +1,144 @@
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.rotate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  overflow: hidden;
+}
+.rotate span {
+  position: absolute;
+
+}
+
+.rotate::after {
+  content: "Rotate";
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  bottom: 100%;
+}
+.rotate:hover::after {
+  transform: translateY(100%);
+  background-color: yellow;
+  color: black;
+}
+.translate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  overflow: hidden;
+}
+
+.translate span {
+  position: absolute;
+
+}
+
+.translate::after {
+  content: "Translate!";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-200px);
+}
+.translate:hover::after {
+  transform: translateX(0);
+  background-color: black;
+  color: white;
+}
+
+.yeah {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  overflow: hidden;
+}
+
+.yeah span {
+  position: absolute;
+
+}
+.yeah::after {
+  content: "YEAH!";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-250px);
+}
+.yeah:hover::after {
+  transform: translateY(0);
+  background-color: red;
+}
+.scale {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: solid 1px black;
+  width: 300px;
+  height: 100px;
+  top: 0;
+  overflow: hidden;
+  margin-left: 40%;
+}
+
+.scale span {
+  position: absolute;
+
+}
+
+.scale::after {
+  content: "Scale & Opacity";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform: Scale(5);
+  opacity: 0;
+}
+.scale:hover::after {
+  transform: Scale(1);
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
