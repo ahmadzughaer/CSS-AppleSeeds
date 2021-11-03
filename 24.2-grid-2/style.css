@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  gap: 5px;
+  /* grid-area: 'item item item'; */
+  grid-template-areas: "item-1 item-1 item-1 item-1" "item-2  item-2  item-3 item-3" "item-2  item-2  item-4 item-5";
+}
+
+.item-1 {
+  padding: 3rem;
+  background: red;
+  grid-area: item-1;
+  border-radius: 10px;
+
+}
+.item-2 {
+  padding: 3rem;
+  background: blue;
+  grid-area: item-2;
+  border-radius: 10px;
+
+}
+.item-3 {
+  padding: 3rem;
+  background: green;
+  grid-area: item-3;
+  border-radius: 10px;
+
+}
+.item-4 {
+  padding: 3rem;
+  background: purple;
+  grid-area: item-4;
+  border-radius: 10px;
+
+}
+.item-5 {
+  padding: 3rem;
+  background: purple;
+  grid-area: item-5;
+  border-radius: 10px;
+}
